@@ -1,3 +1,9 @@
+
+* {
+  background-color: aliceblue;
+}
+
+
 .App {
   text-align: center;
 }
@@ -28,4 +34,34 @@ input {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.desc-container {
+  border: solid 1px blueviolet;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  border-radius: 10px;
+  padding-bottom: 5%;
+  background-color: white;
+}
+
+.desc-container h2 {
+  font-size: 40px;
+  background-color: white;
+}
+
+.desc-container p {
+  background-color: white;
+}
+
+
+.back-btn {
+    
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding: 20px 80px;
+    color: white;
+
 }
